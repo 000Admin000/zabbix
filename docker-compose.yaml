@@ -87,7 +87,7 @@ services:
     environment:
       - ZBX_SERVER_HOST=server
   postgres-server:
-    image: postgres:latest
+    image: postgres:15
     restart: always
     volumes:
       - /var/lib/postgresql/data:/var/lib/postgresql/data
